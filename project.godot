@@ -16,7 +16,7 @@ config/icon="res://icon.svg"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/github_to_itch/plugin.cfg")
+enabled=PackedStringArray("res://addons/proton_scatter/plugin.cfg")
 
 [github_to_itch]
 

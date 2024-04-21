@@ -1,0 +1,113 @@
+[gd_scene load_steps=14 format=3 uid="uid://b7muh4f5yuuss"]
+
+[ext_resource type="Texture2D" uid="uid://bgc5rl13dopuj" path="res://addons/proton_scatter/demos/assets/textures/sky_2.png" id="1_g8qhw"]
+[ext_resource type="Material" uid="uid://c7mw5tryqfggw" path="res://addons/proton_scatter/demos/assets/materials/m_water.tres" id="2_7510b"]
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_55hf3"]
+panorama = ExtResource("1_g8qhw")
+
+[sub_resource type="Sky" id="Sky_ju840"]
+sky_material = SubResource("PanoramaSkyMaterial_55hf3")
+
+[sub_resource type="Environment" id="Environment_od8i2"]
+background_mode = 2
+background_energy_multiplier = 1.25
+sky = SubResource("Sky_ju840")
+sky_rotation = Vector3(0, 1.13446, 0)
+ambient_light_color = Color(0.352941, 0.215686, 0.529412, 1)
+ambient_light_sky_contribution = 0.2
+ambient_light_energy = 0.5
+tonemap_mode = 3
+tonemap_white = 1.2
+glow_enabled = true
+fog_enabled = true
+fog_light_color = Color(0.243137, 0.411765, 0.607843, 1)
+fog_light_energy = 1.8
+fog_density = 0.02
+fog_sky_affect = 0.05
+fog_height = 4.0
+fog_height_density = 0.02
+volumetric_fog_temporal_reprojection_enabled = false
+adjustment_enabled = true
+adjustment_contrast = 1.15
+adjustment_saturation = 1.1
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_qx2ou"]
+size = Vector2(300, 300)
+
+[sub_resource type="SphereMesh" id="SphereMesh_xm41c"]
+radius = 20.0
+
+[sub_resource type="SphereMesh" id="SphereMesh_y1821"]
+radius = 8.0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7cg6w"]
+
+[sub_resource type="PrismMesh" id="PrismMesh_4mit3"]
+custom_aabb = AABB(5, 0, 0, 0, 0, 0)
+left_to_right = 2.0
+size = Vector3(15, 3, 10)
+subdivide_width = 10
+subdivide_height = 5
+
+[sub_resource type="SphereMesh" id="SphereMesh_bej8a"]
+radius = 10.0
+
+[sub_resource type="PrismMesh" id="PrismMesh_1gyea"]
+left_to_right = 2.0
+size = Vector3(15, 1, 10)
+
+[sub_resource type="SphereMesh" id="SphereMesh_ywknq"]
+radius = 11.0
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Lighting" type="Node3D" parent="."]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Lighting"]
+transform = Transform3D(0.422618, -0.383022, 0.821394, 0, 0.906308, 0.422618, -0.906308, -0.178606, 0.383022, 0, 2.29496, 0)
+light_color = Color(1, 0.941176, 0.921569, 1)
+light_energy = 2.0
+light_indirect_energy = 0.5
+shadow_enabled = true
+shadow_opacity = 0.85
+shadow_blur = 0.2
+directional_shadow_max_distance = 20.0
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="Lighting"]
+environment = SubResource("Environment_od8i2")
+
+[node name="Camera3D" type="Camera3D" parent="Lighting"]
+transform = Transform3D(1, 0, 0, 0, 0.98872, 0.149777, 0, -0.149777, 0.98872, -3.319, 2.435, 4.146)
+
+[node name="Water" type="MeshInstance3D" parent="."]
+material_override = ExtResource("2_7510b")
+cast_shadow = 0
+mesh = SubResource("PlaneMesh_qx2ou")
+metadata/_edit_lock_ = true
+metadata/_edit_group_ = true
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0936763, -0.00705445, -0.190283)
+mesh = SubResource("SphereMesh_xm41c")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.6083, -0.00226974, 19.0379)
+mesh = SubResource("SphereMesh_y1821")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.75094, 1.36232, -14.4452)
+material_override = SubResource("StandardMaterial3D_7cg6w")
+mesh = SubResource("PrismMesh_4mit3")
+
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.26538, -0.0836568, 24.2247)
+mesh = SubResource("SphereMesh_bej8a")
+
+[node name="MeshInstance3D5" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.3529, 0.327205, 19.2626)
+mesh = SubResource("PrismMesh_1gyea")
+
+[node name="MeshInstance3D6" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.5004, -0.140267, -12.8917)
+mesh = SubResource("SphereMesh_ywknq")
