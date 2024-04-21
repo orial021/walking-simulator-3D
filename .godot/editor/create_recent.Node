@@ -1,2 +1,4 @@
+CSGMesh3D
+CollisionShape3D
 MeshInstance3D
 MultiMeshInstance3D
