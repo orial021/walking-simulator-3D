@@ -119,7 +119,7 @@ func _physics_process(delta):
 	
 	low_ceiling = $CrouchCeilingDetection.is_colliding()
 	
-	handle_state(input_dir)
+	#handle_state(input_dir)
 	if dynamic_fov:
 		update_camera_fov()
 	
@@ -173,7 +173,7 @@ func handle_movement(delta, input_dir):
 			velocity.z = direction.z * speed
 
 
-func handle_state(moving):
+'''func handle_state(moving):
 	if sprint_enabled:
 		if sprint_mode == 0:
 			if Input.is_action_pressed(SPRINT) and state != "crouching":
@@ -213,7 +213,7 @@ func handle_state(moving):
 						enter_crouch_state()
 					"crouching":
 						if !$CrouchCeilingDetection.is_colliding():
-							enter_normal_state()
+							enter_normal_state()'''
 
 
 # Any enter state function should only be called once when you want to enter that state, not every frame.

@@ -3,3 +3,7 @@ res://addons/proton_scatter/demos/assets/materials/m_water.tres
 res://addons/proton_scatter/demos/assets/materials/m_pine_leaves.tres
 res://addons/proton_scatter/demos/assets/materials/m_grass.tres
 res://addons/proton_scatter/demos/assets/materials/m_bush.tres
+res://arena.tres
+res://addons/proton_scatter/demos/showcase.tscn
+res://addons/fpc/character.gd
+res://knigth.tscn

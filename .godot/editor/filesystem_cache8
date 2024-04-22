@@ -1,13 +1,15 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1713738178
+::res://::1713752267
+arena.tres::StandardMaterial3D::4995661759707928288::1713751665::0::1::::<><>::
 icon.png::CompressedTexture2D::2918578973136715902::1713728013::1713728014::1::::<><>::
 icon.svg::CompressedTexture2D::5442089626856816999::1713727866::1713727880::1::::<><>::
+preview.png::CompressedTexture2D::8013754491516137301::1713749799::1713749799::1::::<><>::
 README.md::TextFile::-1::1713728013::0::1::::<><>::
 test_world.tscn::PackedScene::-1::1713736644::0::1::::<><>::
-walking_simulator_3D.tscn::PackedScene::4658464585868639078::1713736814::0::1::::<><>::uid://bgc5rl13dopuj::::res://addons/proton_scatter/demos/assets/textures/sky_2.png<>uid://c7mw5tryqfggw::::res://addons/proton_scatter/demos/assets/materials/m_water.tres<>uid://cc1m2a1obsyn4::::res://addons/fpc/character.tscn
-::res://addons/::1713736644
-::res://addons/fpc/::1713736644
-character.gd::GDScript::-1::1713736644::0::1::::<>CharacterBody3D<>::
+walking_simulator_3D.tscn::PackedScene::4658464585868639078::1713752267::0::1::::<><>::uid://bgc5rl13dopuj::::res://addons/proton_scatter/demos/assets/textures/sky_2.png<>uid://c7mw5tryqfggw::::res://addons/proton_scatter/demos/assets/materials/m_water.tres<>uid://cdf624ebsha8g::::res://arena.tres<>res://addons/proton_scatter/src/scatter.gd<>res://addons/proton_scatter/src/stack/modifier_stack.gd<>res://addons/proton_scatter/src/modifiers/create_inside_random.gd<>res://addons/proton_scatter/src/modifiers/randomize_transforms.gd<>res://addons/proton_scatter/src/modifiers/relax.gd<>res://addons/proton_scatter/src/modifiers/project_on_geometry.gd<>res://addons/proton_scatter/src/scatter_item.gd<>res://addons/proton_scatter/src/scatter_shape.gd<>res://addons/proton_scatter/src/shapes/sphere_shape.gd<>res://addons/proton_scatter/src/shapes/box_shape.gd<>uid://cc1m2a1obsyn4::::res://addons/fpc/character.tscn<>uid://2mqqu1vombe5::::res://natur/addons/quaternius simple nature pack/static bodies/tree_4.tscn<>uid://t7f7lc8h1od6::::res://natur/addons/quaternius simple nature pack/static bodies/tree_3.tscn<>uid://ca026by8kvonb::::res://natur/addons/quaternius simple nature pack/static bodies/tree_2.tscn<>uid://t54m5opl3nv2::::res://natur/addons/quaternius simple nature pack/static bodies/tree_1.tscn
+::res://addons/::1713752919
+::res://addons/fpc/::1713752266
+character.gd::GDScript::-1::1713752266::0::1::::<>CharacterBody3D<>::
 character.tscn::PackedScene::4967669737419533591::1713736644::0::1::::<><>::res://addons/fpc/character.gd<>res://addons/fpc/debug.gd
 debug.gd::GDScript::-1::1713736644::0::1::::<>PanelContainer<>::
 ::res://addons/fpc/reticles/::1713736644
@@ -27,12 +29,68 @@ workflow_template.yml::TextFile::-1::1713728013::0::1::::<><>::
 config.gd::GDScript::-1::1713728013::0::1::::<>ScrollContainer<>::
 config.tscn::PackedScene::6694148610382249659::1713728013::0::1::::<><>::res://addons/github_to_itch/ui/config.gd<>uid://bk128k0tftsey::::res://addons/github_to_itch/ui/info_bubble.tscn
 info_bubble.tscn::PackedScene::3143681796406869488::1713728013::0::1::::<><>::
+::res://addons/kaykit_character_pack_adventures/::1713752922
+LICENSE.txt::TextFile::-1::1713752922::0::1::::<><>::
+::res://addons/kaykit_character_pack_adventures/Assets/::1713752919
+::res://addons/kaykit_character_pack_adventures/Assets/gltf/::1713752921
+arrow.gltf::PackedScene::5488928984443918836::1713752919::1713752931::1::::<><>::uid://c3jgqlrps8rd4::::res://addons/kaykit_character_pack_adventures/Assets/gltf/rogue_texture.png
+arrow_bundle.gltf::PackedScene::5341742966714220680::1713752919::1713752932::1::::<><>::uid://c3jgqlrps8rd4::::res://addons/kaykit_character_pack_adventures/Assets/gltf/rogue_texture.png
+axe_1handed.gltf::PackedScene::1341164988544431035::1713752919::1713752932::1::::<><>::uid://bmh12ds8xv6vr::::res://addons/kaykit_character_pack_adventures/Assets/gltf/barbarian_texture.png
+axe_2handed.gltf::PackedScene::4640162714532538820::1713752919::1713752932::1::::<><>::uid://bmh12ds8xv6vr::::res://addons/kaykit_character_pack_adventures/Assets/gltf/barbarian_texture.png
+barbarian_texture.png::CompressedTexture2D::3244764496782764943::1713752919::1713752938::1::::<><>::
+crossbow_1handed.gltf::PackedScene::2710066159189568469::1713752919::1713752932::1::::<><>::uid://c3jgqlrps8rd4::::res://addons/kaykit_character_pack_adventures/Assets/gltf/rogue_texture.png
+crossbow_2handed.gltf::PackedScene::611087527097311452::1713752920::1713752933::1::::<><>::uid://c3jgqlrps8rd4::::res://addons/kaykit_character_pack_adventures/Assets/gltf/rogue_texture.png
+dagger.gltf::PackedScene::1807153569484241503::1713752920::1713752933::1::::<><>::uid://c3jgqlrps8rd4::::res://addons/kaykit_character_pack_adventures/Assets/gltf/rogue_texture.png
+knight_texture.png::CompressedTexture2D::6660821604279884404::1713752920::1713752937::1::::<><>::
+mage_texture.png::CompressedTexture2D::8490163134523654930::1713752920::1713752937::1::::<><>::
+mug_empty.gltf::PackedScene::705008206253738043::1713752920::1713752933::1::::<><>::uid://bmh12ds8xv6vr::::res://addons/kaykit_character_pack_adventures/Assets/gltf/barbarian_texture.png
+mug_full.gltf::PackedScene::7656240526397073317::1713752920::1713752933::1::::<><>::uid://bmh12ds8xv6vr::::res://addons/kaykit_character_pack_adventures/Assets/gltf/barbarian_texture.png
+quiver.gltf::PackedScene::2632866769888588454::1713752920::1713752933::1::::<><>::uid://c3jgqlrps8rd4::::res://addons/kaykit_character_pack_adventures/Assets/gltf/rogue_texture.png
+rogue_texture.png::CompressedTexture2D::6757101868422152847::1713752920::1713752937::1::::<><>::
+shield_badge.gltf::PackedScene::7864818463187027548::1713752920::1713752934::1::::<><>::uid://c15s02asm8dgu::::res://addons/kaykit_character_pack_adventures/Assets/gltf/knight_texture.png
+shield_badge_color.gltf::PackedScene::3342409929825588821::1713752920::1713752934::1::::<><>::uid://c15s02asm8dgu::::res://addons/kaykit_character_pack_adventures/Assets/gltf/knight_texture.png
+shield_round.gltf::PackedScene::7759211860708116082::1713752920::1713752934::1::::<><>::uid://c15s02asm8dgu::::res://addons/kaykit_character_pack_adventures/Assets/gltf/knight_texture.png
+shield_round_barbarian.gltf::PackedScene::5476014439605287765::1713752920::1713752934::1::::<><>::uid://bmh12ds8xv6vr::::res://addons/kaykit_character_pack_adventures/Assets/gltf/barbarian_texture.png
+shield_round_color.gltf::PackedScene::9191032762337748562::1713752920::1713752935::1::::<><>::uid://c15s02asm8dgu::::res://addons/kaykit_character_pack_adventures/Assets/gltf/knight_texture.png
+shield_spikes.gltf::PackedScene::6907489028417998932::1713752920::1713752935::1::::<><>::uid://c15s02asm8dgu::::res://addons/kaykit_character_pack_adventures/Assets/gltf/knight_texture.png
+shield_spikes_color.gltf::PackedScene::2537768511468113935::1713752920::1713752935::1::::<><>::uid://c15s02asm8dgu::::res://addons/kaykit_character_pack_adventures/Assets/gltf/knight_texture.png
+shield_square.gltf::PackedScene::1789907097268715146::1713752921::1713752935::1::::<><>::uid://c15s02asm8dgu::::res://addons/kaykit_character_pack_adventures/Assets/gltf/knight_texture.png
+shield_square_color.gltf::PackedScene::1722410939916809001::1713752921::1713752935::1::::<><>::uid://c15s02asm8dgu::::res://addons/kaykit_character_pack_adventures/Assets/gltf/knight_texture.png
+smokebomb.gltf::PackedScene::297367189945548809::1713752921::1713752936::1::::<><>::uid://c3jgqlrps8rd4::::res://addons/kaykit_character_pack_adventures/Assets/gltf/rogue_texture.png
+spellbook_closed.gltf::PackedScene::5926573367251337939::1713752921::1713752923::1::::<><>::uid://ds7x0m3nrm0xq::::res://addons/kaykit_character_pack_adventures/Assets/gltf/mage_texture.png
+spellbook_open.gltf::PackedScene::925952363753936944::1713752921::1713752923::1::::<><>::uid://ds7x0m3nrm0xq::::res://addons/kaykit_character_pack_adventures/Assets/gltf/mage_texture.png
+staff.gltf::PackedScene::1662785655059355072::1713752921::1713752924::1::::<><>::uid://ds7x0m3nrm0xq::::res://addons/kaykit_character_pack_adventures/Assets/gltf/mage_texture.png
+sword_1handed.gltf::PackedScene::6039767510318359260::1713752921::1713752924::1::::<><>::uid://c15s02asm8dgu::::res://addons/kaykit_character_pack_adventures/Assets/gltf/knight_texture.png
+sword_2handed.gltf::PackedScene::4866814893847718245::1713752921::1713752924::1::::<><>::uid://c15s02asm8dgu::::res://addons/kaykit_character_pack_adventures/Assets/gltf/knight_texture.png
+sword_2handed_color.gltf::PackedScene::421767599681832242::1713752921::1713752924::1::::<><>::uid://c15s02asm8dgu::::res://addons/kaykit_character_pack_adventures/Assets/gltf/knight_texture.png
+wand.gltf::PackedScene::5880511784279941420::1713752921::1713752924::1::::<><>::uid://ds7x0m3nrm0xq::::res://addons/kaykit_character_pack_adventures/Assets/gltf/mage_texture.png
+::res://addons/kaykit_character_pack_adventures/Characters/::1713752921
+::res://addons/kaykit_character_pack_adventures/Characters/gltf/::1713752922
+Barbarian.glb::PackedScene::6535335099630499889::1713752921::1713752927::1::::<><>::uid://bbougvwfv1ssu::::res://addons/kaykit_character_pack_adventures/Characters/gltf/Barbarian_barbarian_texture.png
+barbarian_texture.png::CompressedTexture2D::4223364612431457474::1713752921::1713752923::1::::<><>::
+Knight.glb::PackedScene::3600873725859452891::1713752921::1713752928::1::::<><>::uid://6rmd4alr36wv::::res://addons/kaykit_character_pack_adventures/Characters/gltf/Knight_knight_texture.png
+knight_texture.png::CompressedTexture2D::3587066796009628732::1713752922::1713752923::1::::<><>::
+Mage.glb::PackedScene::5392566372483938956::1713752921::1713752929::1::::<><>::uid://cjvujjeki0hqx::::res://addons/kaykit_character_pack_adventures/Characters/gltf/Mage_mage_texture.png
+mage_texture.png::CompressedTexture2D::1811376350725876744::1713752922::1713752923::1::::<><>::
+Barbarian_barbarian_texture.png::CompressedTexture2D::2486737007739062656::1713752925::1713752937::1::::<><>::
+Knight_knight_texture.png::CompressedTexture2D::2211684059593731021::1713752927::1713752937::1::::<><>::
+Mage_mage_texture.png::CompressedTexture2D::5449123784319627355::1713752928::1713752937::1::::<><>::
+Rogue_Hooded_rogue_texture.png::CompressedTexture2D::5076952818138302578::1713752931::1713752937::1::::<><>::
+Rogue_rogue_texture.png::CompressedTexture2D::5150522032228853536::1713752930::1713752937::1::::<><>::
+Rogue.glb::PackedScene::1365759694515456143::1713752921::1713752931::1::::<><>::uid://celkw24m2qu23::::res://addons/kaykit_character_pack_adventures/Characters/gltf/Rogue_Hooded_rogue_texture.png
+Rogue_Hooded.glb::::-1::0::0::0::::<><>::
+rogue_texture.png::CompressedTexture2D::4557512226952298042::1713752922::1713752923::1::::<><>::
+::res://addons/kaykit_character_pack_adventures/Textures/::1713752922
+barbarian_texture.png::CompressedTexture2D::1736869913100633216::1713752922::1713752923::1::::<><>::
+knight_texture.png::CompressedTexture2D::3662654982491519206::1713752922::1713752923::1::::<><>::
+mage_texture.png::CompressedTexture2D::3756529334643940848::1713752922::1713752923::1::::<><>::
+rogue_texture.png::CompressedTexture2D::4482703246336011648::1713752922::1713752923::1::::<><>::
 ::res://addons/proton_scatter/::1713728314
 plugin.cfg::TextFile::-1::1713728302::0::1::::<><>::
 plugin.gd::GDScript::-1::1713728302::0::1::::<>EditorPlugin<>::
-::res://addons/proton_scatter/demos/::1713736884
+::res://addons/proton_scatter/demos/::1713752266
 loading.gd::GDScript::-1::1713728292::0::1::::<>Control<>::
-showcase.tscn::PackedScene::223005128466035801::1713736884::0::1::::<><>::uid://bgc5rl13dopuj::::res://addons/proton_scatter/demos/assets/textures/sky_2.png<>res://addons/proton_scatter/src/scatter.gd<>res://addons/proton_scatter/src/stack/modifier_stack.gd<>res://addons/proton_scatter/src/scatter_item.gd<>uid://c7mw5tryqfggw::::res://addons/proton_scatter/demos/assets/materials/m_water.tres<>res://addons/proton_scatter/src/scatter_shape.gd<>res://addons/proton_scatter/src/modifiers/create_inside_grid.gd<>res://addons/proton_scatter/src/modifiers/randomize_transforms.gd<>res://addons/proton_scatter/src/shapes/path_shape.gd<>res://addons/proton_scatter/src/shapes/sphere_shape.gd<>res://addons/proton_scatter/src/shapes/box_shape.gd<>res://addons/proton_scatter/src/modifiers/relax.gd<>res://addons/proton_scatter/src/modifiers/project_on_geometry.gd<>uid://bmglbfn5jaubp::::res://addons/proton_scatter/demos/assets/gobot.tscn<>res://addons/proton_scatter/src/modifiers/create_inside_random.gd<>res://addons/proton_scatter/src/modifiers/randomize_rotation.gd<>res://addons/proton_scatter/src/modifiers/array.gd<>res://addons/proton_scatter/demos/loading.gd
+showcase.tscn::PackedScene::223005128466035801::1713752266::0::1::::<><>::uid://bgc5rl13dopuj::::res://addons/proton_scatter/demos/assets/textures/sky_2.png<>res://addons/proton_scatter/src/scatter.gd<>res://addons/proton_scatter/src/stack/modifier_stack.gd<>res://addons/proton_scatter/src/scatter_item.gd<>uid://c7mw5tryqfggw::::res://addons/proton_scatter/demos/assets/materials/m_water.tres<>res://addons/proton_scatter/src/scatter_shape.gd<>res://addons/proton_scatter/src/modifiers/create_inside_grid.gd<>res://addons/proton_scatter/src/modifiers/randomize_transforms.gd<>res://addons/proton_scatter/src/shapes/path_shape.gd<>res://addons/proton_scatter/src/shapes/sphere_shape.gd<>res://addons/proton_scatter/src/shapes/box_shape.gd<>res://addons/proton_scatter/src/modifiers/relax.gd<>res://addons/proton_scatter/src/modifiers/project_on_geometry.gd<>uid://bmglbfn5jaubp::::res://addons/proton_scatter/demos/assets/gobot.tscn<>res://addons/proton_scatter/src/modifiers/create_inside_random.gd<>res://addons/proton_scatter/src/modifiers/randomize_rotation.gd<>res://addons/proton_scatter/src/modifiers/array.gd<>res://addons/proton_scatter/demos/loading.gd
 ::res://addons/proton_scatter/demos/assets/::1713728291
 brick.tscn::PackedScene::4461370198363028043::1713728290::0::1::::<><>::uid://d1d1fag0m04yc::::res://addons/proton_scatter/demos/assets/models/brick.glb<>uid://dqa2jfs1jy0hq::::res://addons/proton_scatter/demos/assets/textures/t_rock.jpg
 bush.tscn::PackedScene::4702747137064026898::1713728290::0::1::::<><>::uid://dbb4culid55v5::::res://addons/proton_scatter/demos/assets/models/bush.glb<>uid://bn3fr3m3glrnp::::res://addons/proton_scatter/demos/assets/materials/m_bush.tres
@@ -45,19 +103,19 @@ large_rock.tscn::PackedScene::2317743532388290159::1713728290::0::1::::<><>::uid
 mushroom.tscn::PackedScene::3375880312242836590::1713728291::0::1::::<><>::uid://c38uugpgw7hjm::::res://addons/proton_scatter/demos/assets/models/mushrooms.glb<>uid://ds2hjlo70hglg::::res://addons/proton_scatter/demos/assets/materials/m_mushroom.tres
 pine_tree.tscn::PackedScene::4807277703298363136::1713728291::0::1::::<><>::uid://bhums0j31gm5n::::res://addons/proton_scatter/demos/assets/models/pine_tree.glb<>uid://d01d0h08lqqn6::::res://addons/proton_scatter/demos/assets/materials/m_trunk.tres<>uid://d28lq2qtgdyie::::res://addons/proton_scatter/demos/assets/materials/m_pine_leaves.tres
 small_rock.tscn::PackedScene::3198481557407108502::1713728291::0::1::::<><>::uid://b81l25tbebki4::::res://addons/proton_scatter/demos/assets/models/small_rock.glb<>uid://i0jgjmbbl2m5::::res://addons/proton_scatter/demos/assets/materials/m_rock.tres
-::res://addons/proton_scatter/demos/assets/materials/::1713736738
+::res://addons/proton_scatter/demos/assets/materials/::1713751098
 grass.gdshader::Shader::-1::1713728290::0::1::::<><>::
 leaves.gdshader::Shader::-1::1713728290::0::1::::<><>::
-m_bush.tres::ShaderMaterial::3357013662033530693::1713736738::0::1::::<><>::res://addons/proton_scatter/demos/assets/materials/grass.gdshader<>uid://b2a6ylo2enm4g::::res://addons/proton_scatter/demos/assets/textures/t_bush.png
+m_bush.tres::ShaderMaterial::3357013662033530693::1713751098::0::1::::<><>::res://addons/proton_scatter/demos/assets/materials/grass.gdshader<>uid://b2a6ylo2enm4g::::res://addons/proton_scatter/demos/assets/textures/t_bush.png
 m_fence.tres::StandardMaterial3D::-1::1713728290::0::1::::<><>::
-m_grass.tres::ShaderMaterial::6833975707926138467::1713736737::0::1::::<><>::res://addons/proton_scatter/demos/assets/materials/grass.gdshader<>uid://d23p13yi7asw0::::res://addons/proton_scatter/demos/assets/textures/t_grass_2.png
+m_grass.tres::ShaderMaterial::6833975707926138467::1713751098::0::1::::<><>::res://addons/proton_scatter/demos/assets/materials/grass.gdshader<>uid://d23p13yi7asw0::::res://addons/proton_scatter/demos/assets/textures/t_grass_2.png
 m_leaves.tres::ShaderMaterial::7821912291560424834::1713728290::0::1::::<><>::res://addons/proton_scatter/demos/assets/materials/grass.gdshader<>uid://cgenco43aneod::::res://addons/proton_scatter/demos/assets/textures/t_leaves_1.png
 m_mushroom.tres::StandardMaterial3D::8478841127889747164::1713728290::0::1::::<><>::uid://bjdgw8o5tr1a3::::res://addons/proton_scatter/demos/assets/textures/mushroom.png
-m_pine_leaves.tres::ShaderMaterial::9123183198531821132::1713736737::0::1::::<><>::res://addons/proton_scatter/demos/assets/materials/leaves.gdshader<>uid://ctpb1w0cr8tqc::::res://addons/proton_scatter/demos/assets/textures/t_pine_branch.png
+m_pine_leaves.tres::ShaderMaterial::9123183198531821132::1713751098::0::1::::<><>::res://addons/proton_scatter/demos/assets/materials/leaves.gdshader<>uid://ctpb1w0cr8tqc::::res://addons/proton_scatter/demos/assets/textures/t_pine_branch.png
 m_rock.tres::StandardMaterial3D::613677851949121066::1713728290::0::1::::<><>::uid://drdh36j6mu3ah::::res://addons/proton_scatter/demos/assets/textures/t_rock_dirty.png
 m_trunk.tres::StandardMaterial3D::8967884167259866665::1713728290::0::1::::<><>::uid://c7pop5xgpxtiv::::res://addons/proton_scatter/demos/assets/textures/t_tree_bark_rough.png
 m_water.gdshader::Shader::-1::1713728290::0::1::::<><>::
-m_water.tres::ShaderMaterial::7045047269827327842::1713736737::0::1::::<><>::res://addons/proton_scatter/demos/assets/materials/m_water.gdshader
+m_water.tres::ShaderMaterial::7045047269827327842::1713751098::0::1::::<><>::res://addons/proton_scatter/demos/assets/materials/m_water.gdshader
 ::res://addons/proton_scatter/demos/assets/models/::1713728319
 brick.glb::PackedScene::8991952700133542094::1713728290::1713728317::1::::<><>::
 bush.glb::PackedScene::7233280704677990976::1713728290::1713728317::1::::<><>::
@@ -290,6 +348,56 @@ save_preset.gd::GDScript::-1::1713728313::0::1::::<>Window<>::
 save_preset.tscn::PackedScene::-1::1713728313::0::1::::<><>::res://addons/proton_scatter/src/stack/inspector_plugin/ui/presets/save_preset.gd
 ::res://addons/proton_scatter/tests/::1713728314
 unit_testing.tscn::PackedScene::155225341127764101::1713728314::0::1::::<><>::res://addons/proton_scatter/src/scatter.gd<>uid://6xc5b38d25gf::::res://addons/proton_scatter/demos/assets/textures/grid.png<>res://addons/proton_scatter/src/stack/modifier_stack.gd<>res://addons/proton_scatter/src/modifiers/create_inside_random.gd<>res://addons/proton_scatter/src/scatter_item.gd<>res://addons/proton_scatter/src/scatter_shape.gd<>res://addons/proton_scatter/src/shapes/sphere_shape.gd<>res://addons/proton_scatter/src/modifiers/create_inside_grid.gd<>res://addons/proton_scatter/src/modifiers/create_inside_poisson.gd<>res://addons/proton_scatter/src/modifiers/create_along_edge_random.gd<>res://addons/proton_scatter/src/modifiers/create_along_edge_even.gd<>res://addons/proton_scatter/src/shapes/box_shape.gd<>res://addons/proton_scatter/src/shapes/path_shape.gd<>res://addons/proton_scatter/src/modifiers/create_along_edge_continuous.gd<>res://addons/proton_scatter/src/modifiers/offset_scale.gd<>res://addons/proton_scatter/src/modifiers/single_item.gd<>res://addons/proton_scatter/src/modifiers/array.gd<>res://addons/proton_scatter/src/modifiers/randomize_transforms.gd<>res://addons/proton_scatter/src/modifiers/offset_position.gd<>res://addons/proton_scatter/src/modifiers/look_at.gd<>res://addons/proton_scatter/src/modifiers/offset_rotation.gd<>res://addons/proton_scatter/src/modifiers/clusterize.gd<>res://addons/proton_scatter/src/modifiers/project_on_geometry.gd<>res://addons/proton_scatter/src/modifiers/proxy.gd<>res://addons/proton_scatter/src/modifiers/relax.gd<>res://addons/proton_scatter/src/modifiers/remove_outside_shapes.gd<>res://addons/proton_scatter/src/particles/example_random_motion.gdshader
+::res://natur/::1713751652
+::res://natur/addons/::1713751652
+::res://natur/addons/quaternius simple nature pack/::1713751652
+preview.tscn::PackedScene::1315137873027211699::1713751652::0::1::::<><>::res://lopanaro/assets packs/quaternius simple nature pack/static bodies/bush_1.tscn<>res://lopanaro/assets packs/quaternius simple nature pack/static bodies/bush_2.tscn<>res://lopanaro/assets packs/quaternius simple nature pack/static bodies/bush_3.tscn<>res://lopanaro/assets packs/quaternius simple nature pack/static bodies/grass_1.tscn<>uid://butw4poodu5gg::::res://lopanaro/assets packs/quaternius simple nature pack/static bodies/grass_2.tscn<>uid://b6g8yc62f2j5s::::res://lopanaro/assets packs/quaternius simple nature pack/static bodies/grass_3.tscn<>uid://cal6m7uf1k1n7::::res://lopanaro/assets packs/quaternius simple nature pack/static bodies/rock_1.tscn<>uid://djb0yl6e0llhd::::res://lopanaro/assets packs/quaternius simple nature pack/static bodies/rock_2.tscn<>uid://kopcbpjf5sbn::::res://lopanaro/assets packs/quaternius simple nature pack/static bodies/rock_3.tscn<>uid://t54m5opl3nv2::::res://lopanaro/assets packs/quaternius simple nature pack/static bodies/tree_1.tscn<>uid://ca026by8kvonb::::res://lopanaro/assets packs/quaternius simple nature pack/static bodies/tree_2.tscn<>uid://t7f7lc8h1od6::::res://lopanaro/assets packs/quaternius simple nature pack/static bodies/tree_3.tscn<>uid://2mqqu1vombe5::::res://lopanaro/assets packs/quaternius simple nature pack/static bodies/tree_4.tscn
+::res://natur/addons/quaternius simple nature pack/gltf/::1713751655
+bush_1.glb::PackedScene::5974440183740277528::1713751652::1713751653::1::::<><>::
+bush_2.glb::PackedScene::4044890420577254732::1713751652::1713751654::1::::<><>::
+bush_3.glb::PackedScene::3388738801571341768::1713751652::1713751654::1::::<><>::
+grass_1.glb::PackedScene::4209814385245936332::1713751652::1713751654::1::::<><>::
+grass_2.glb::PackedScene::1627808957239438278::1713751652::1713751654::1::::<><>::
+grass_3.glb::PackedScene::9087422489077190744::1713751652::1713751654::1::::<><>::
+rock_1.glb::PackedScene::2851112266388229856::1713751652::1713751654::1::::<><>::
+rock_2.glb::PackedScene::5548397548924645371::1713751652::1713751655::1::::<><>::
+rock_3.glb::PackedScene::4363053471759590808::1713751652::1713751655::1::::<><>::
+tree_1.glb::PackedScene::2654855709849679740::1713751652::1713751655::1::::<><>::
+tree_2.glb::PackedScene::6531724606733121586::1713751652::1713751655::1::::<><>::
+tree_3.glb::PackedScene::4453047310464040245::1713751652::1713751655::1::::<><>::
+tree_4.glb::PackedScene::7865166327945256740::1713751652::1713751655::1::::<><>::
+::res://natur/addons/quaternius simple nature pack/materials/::1713751652
+leaves.tres::StandardMaterial3D::1084691856906823309::1713751652::0::1::::<><>::
+rock.tres::StandardMaterial3D::8149731648329633354::1713751652::0::1::::<><>::
+tree.tres::StandardMaterial3D::606695521691358605::1713751652::0::1::::<><>::
+::res://natur/addons/quaternius simple nature pack/meshes/::1713751652
+bush_1.res::ArrayMesh::3485926894977572786::1713751652::0::1::::<><>::uid://ppoymfxr1m0l::::res://lopanaro/assets packs/quaternius simple nature pack/materials/leaves.tres<>uid://iv5glyihk3gr::::res://lopanaro/assets packs/quaternius simple nature pack/materials/tree.tres
+bush_2.res::ArrayMesh::8374568576143867550::1713751652::0::1::::<><>::uid://ppoymfxr1m0l::::res://lopanaro/assets packs/quaternius simple nature pack/materials/leaves.tres<>uid://iv5glyihk3gr::::res://lopanaro/assets packs/quaternius simple nature pack/materials/tree.tres
+bush_3.res::ArrayMesh::5090817351331143467::1713751652::0::1::::<><>::uid://ppoymfxr1m0l::::res://lopanaro/assets packs/quaternius simple nature pack/materials/leaves.tres<>uid://iv5glyihk3gr::::res://lopanaro/assets packs/quaternius simple nature pack/materials/tree.tres
+grass_1.res::ArrayMesh::3420711951161252394::1713751652::0::1::::<><>::uid://ppoymfxr1m0l::::res://lopanaro/assets packs/quaternius simple nature pack/materials/leaves.tres
+grass_2.res::ArrayMesh::2219041240688089191::1713751652::0::1::::<><>::uid://ppoymfxr1m0l::::res://lopanaro/assets packs/quaternius simple nature pack/materials/leaves.tres
+grass_3.res::ArrayMesh::3560698432387351637::1713751652::0::1::::<><>::uid://ppoymfxr1m0l::::res://lopanaro/assets packs/quaternius simple nature pack/materials/leaves.tres
+rock_1.res::ArrayMesh::5989585347575567735::1713751652::0::1::::<><>::uid://dod15ilfo2wkg::::res://lopanaro/assets packs/quaternius simple nature pack/materials/rock.tres
+rock_2.res::ArrayMesh::7280581793891993272::1713751652::0::1::::<><>::uid://dod15ilfo2wkg::::res://lopanaro/assets packs/quaternius simple nature pack/materials/rock.tres
+rock_3.res::ArrayMesh::4830603384345518102::1713751652::0::1::::<><>::uid://dod15ilfo2wkg::::res://lopanaro/assets packs/quaternius simple nature pack/materials/rock.tres
+tree_1.res::ArrayMesh::7750567636147751680::1713751652::0::1::::<><>::uid://ppoymfxr1m0l::::res://lopanaro/assets packs/quaternius simple nature pack/materials/leaves.tres<>uid://iv5glyihk3gr::::res://lopanaro/assets packs/quaternius simple nature pack/materials/tree.tres
+tree_2.res::ArrayMesh::3697119258159590267::1713751652::0::1::::<><>::uid://ppoymfxr1m0l::::res://lopanaro/assets packs/quaternius simple nature pack/materials/leaves.tres<>uid://iv5glyihk3gr::::res://lopanaro/assets packs/quaternius simple nature pack/materials/tree.tres
+tree_3.res::ArrayMesh::4815976821694840582::1713751652::0::1::::<><>::
+tree_4.res::ArrayMesh::390226194529501047::1713751652::0::1::::<><>::uid://iv5glyihk3gr::::res://lopanaro/assets packs/quaternius simple nature pack/materials/tree.tres<>uid://ppoymfxr1m0l::::res://lopanaro/assets packs/quaternius simple nature pack/materials/leaves.tres
+::res://natur/addons/quaternius simple nature pack/static bodies/::1713751653
+bush_1.tscn::PackedScene::6471080259289258692::1713751652::0::1::::<><>::uid://bpwuya5tgfdq5::::res://lopanaro/assets packs/quaternius simple nature pack/meshes/bush_1.res
+bush_2.tscn::PackedScene::-1::1713751652::0::1::::<><>::uid://drkx6ktoi4uv3::::res://lopanaro/assets packs/quaternius simple nature pack/meshes/bush_2.res
+bush_3.tscn::PackedScene::525049740153980360::1713751652::0::1::::<><>::uid://cesbau2okubv4::::res://lopanaro/assets packs/quaternius simple nature pack/meshes/bush_3.res
+grass_1.tscn::PackedScene::3066979856703250145::1713751652::0::1::::<><>::uid://bo0avjy188w1g::::res://lopanaro/assets packs/quaternius simple nature pack/meshes/grass_1.res
+grass_2.tscn::PackedScene::3830809105763428570::1713751652::0::1::::<><>::uid://6u6jxq0m386f::::res://lopanaro/assets packs/quaternius simple nature pack/meshes/grass_2.res
+grass_3.tscn::PackedScene::4576707776981622394::1713751652::0::1::::<><>::uid://bqy3ghq6341kr::::res://lopanaro/assets packs/quaternius simple nature pack/meshes/grass_3.res
+rock_1.tscn::PackedScene::4797454890889117138::1713751652::0::1::::<><>::uid://crlnuiq47a4gx::::res://lopanaro/assets packs/quaternius simple nature pack/meshes/rock_1.res
+rock_2.tscn::PackedScene::7794587431309917381::1713751652::0::1::::<><>::uid://dby1ea6eohljc::::res://lopanaro/assets packs/quaternius simple nature pack/meshes/rock_2.res
+rock_3.tscn::PackedScene::731704127528684311::1713751653::0::1::::<><>::uid://ca28lj1fcnyh7::::res://lopanaro/assets packs/quaternius simple nature pack/meshes/rock_3.res
+tree_1.tscn::PackedScene::1397303182086608265::1713751653::0::1::::<><>::uid://diooymncba8dg::::res://lopanaro/assets packs/quaternius simple nature pack/meshes/tree_1.res
+tree_2.tscn::PackedScene::4826145620765673307::1713751653::0::1::::<><>::uid://bsw6aqhjpqeil::::res://lopanaro/assets packs/quaternius simple nature pack/meshes/tree_2.res
+tree_3.tscn::PackedScene::1400009429977539101::1713751653::0::1::::<><>::uid://cau5o1oydyk03::::res://lopanaro/assets packs/quaternius simple nature pack/meshes/tree_3.res
+tree_4.tscn::PackedScene::1920872447467576714::1713751653::0::1::::<><>::uid://fta76qow1d1h::::res://lopanaro/assets packs/quaternius simple nature pack/meshes/tree_4.res
 ::res://textures/::1713736645
 dark.png::CompressedTexture2D::1063034666711214920::1713736644::1713736645::1::::<><>::
 green.png::CompressedTexture2D::6407199022530358862::1713736644::1713736645::1::::<><>::
